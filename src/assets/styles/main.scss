@@ -13,3 +13,25 @@ $fa-font-path: '../webfonts';
     font-family: $main-font;
     color: $text-color;
  }
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+img {
+   max-width: 100%;
+}
+
+.container {
+   max-width: 1170px;
+   margin: 0 auto;
+   padding: 1rem;
+}
+
+li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
