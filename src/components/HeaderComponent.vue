@@ -13,6 +13,9 @@
             </nav>
         </div>
     </header>
+    <section class="jumbo">
+
+    </section>
 </template>
 
 <script>
@@ -104,5 +107,12 @@ header {
             }
         }
     }
+}
+
+.jumbo {
+    background-image: url(img/jumbotron.jpg);
+    background-size: cover;
+    height: 250px;
+
 }
 </style>
